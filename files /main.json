@@ -1,0 +1,36 @@
+{
+"project": "ApexVRAM",
+"version": "1.0.0",
+"description": "Ultimate RAM and GPU performance optimizer tailored for Intel Core i5 and Intel Iris Xe graphics.",
+"package": "ApexVRAM.zip",
+"security": {
+"pinVerificationRequired": true,
+"requiredPinCode": 42
+},
+"compatibility": {
+"cpu": {
+"series": "Intel Core i5",
+"supportedGenerations": [
+"4th Gen", "6th Gen", "7th Gen", "8th Gen",
+"9th Gen", "10th Gen", "11th Gen", "12th Gen",
+"13th Gen", "14th Gen", "Intel Core Ultra 5"
+],
+"fallbackSupport": "Intel Core i3/i7/i9, AMD Ryzen 3/5/7/9"
+},
+"gpu": {
+"featured": "Intel Iris Xe Graphics",
+"vramSharedOptimization": true,
+"supportedDedicated": [
+"NVIDIA RTX Series",
+"NVIDIA GTX Series",
+"AMD Radeon RX Series",
+"Intel Arc Series"
+]
+}
+},
+"optimizerSettings": {
+"standbyRampurge": true,
+"gpuPriorityLevel": "Maximum",
+"thermalThrottlingWatchdog": true
+}
+}
